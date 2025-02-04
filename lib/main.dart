@@ -1,5 +1,6 @@
 import 'package:edu/navigations/bot_nav_bar.dart';
 import 'package:edu/home_screen.dart';
+import 'package:edu/register/register_screen.dart';
 import 'package:edu/splash/splash_screen.dart';
 import 'package:edu/subscriptions/payment.dart';
 import 'package:edu/subscriptions/subscripe_screen.dart';
@@ -51,6 +52,8 @@ class MyApp extends StatelessWidget {
         SubscripeScreen.routeName : (buildContext) => SubscripeScreen(),
         SubscriptionDoneScreen.routeName : (buildContext) => SubscriptionDoneScreen(),
         Payment.routeName : (buildContext) => Payment(),
+        RegisterScreen.routeName : (buildContext) => RegisterScreen(),
+
 
 
 

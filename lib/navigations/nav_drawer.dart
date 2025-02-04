@@ -1,6 +1,7 @@
 import 'package:edu/home_screen.dart';
 import 'package:edu/lawyer/lawyer_screen.dart';
 import 'package:edu/login/login_screen.dart';
+import 'package:edu/register/register_screen.dart';
 import 'package:edu/subscriptions/subscription_screen.dart';
 import 'package:edu/teacher/teacher_screen.dart';
 import 'package:edu/themes.dart';
@@ -122,12 +123,12 @@ class NavDrawer extends StatelessWidget {
                     alignment: Alignment.center,
                     transform: Matrix4.rotationY(pi),
                     child: Icon(
-                      Icons.logout,
+                      Icons.how_to_reg,
                     ),
                   ),
-                  title: Text("Logout"),
+                  title: Text("sign up"),
                   onTap: (){
-                    Navigator.pop(context);
+                    Navigator.popAndPushNamed(context,RegisterScreen.routeName);
                   },
                 ),
               ],

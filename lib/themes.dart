@@ -137,6 +137,13 @@ class Themes{
         ),
 
       ),
+    primaryTextTheme: TextTheme(
+      labelMedium: TextStyle(
+          color: shadowLightOtherColor,
+          fontSize: 16,
+          fontWeight: FontWeight.bold
+      ),
+    ),
     iconTheme: IconThemeData(
       size: 20,
       color: Color(0xFFF8F8F8),
